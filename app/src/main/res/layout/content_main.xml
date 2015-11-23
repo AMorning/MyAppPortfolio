@@ -16,8 +16,77 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Nanodegree Apps!\n"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00008b"
+        android:textSize="32dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/textView"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="SPOTIFY STEREAMER"
+            android:id="@+id/button"
+            android:background="#ffa500"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="SCORES APP"
+            android:id="@+id/button2"
+            android:background="#ffa500"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="LIBRARY APP"
+            android:id="@+id/button3"
+            android:background="#ffa500"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="BUILD IT BIGGER"
+            android:id="@+id/button4"
+            android:background="#ffa500"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="XYZ READER"
+            android:id="@+id/button5"
+            android:background="#ffa500"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="CAPSTONE: MY OWN APP"
+            android:id="@+id/button6"
+            android:background="#ff4500"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/text"-->
+        <!--android:textColor="#FFF"/>-->
+    </LinearLayout>
+
+
 </RelativeLayout>
